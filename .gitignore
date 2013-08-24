@@ -1,0 +1,31 @@
+# Compiled/Packaged Files #
+*.jar
+*.war
+*.ear
+*.class
+
+# Workspace Metadata #
+.metadata/
+
+# Eclipse Settings #
+/WsClient/.settings/
+/WsClient/.classpath
+/WsClient/.project
+
+/WsImpl/.settings/
+/WsImpl/.classpath
+/WsImpl/.project
+
+/WsStructure/.settings/
+/WsStructure/.classpath
+/WsStructure/.project
+
+# Compiled Sources #
+WsClient/bin/
+WsClient/target/
+
+WsImpl/bin/
+WsImpl/target/
+
+WsStructure/bin/
+WsStructure/target/

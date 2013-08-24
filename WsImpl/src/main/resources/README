@@ -1,0 +1,3 @@
+A estrutura do projeto deve conter:
+ _uma pasta chamada 'wsdl' dentro do WEB-INF
+ _um xml chamado 'sun-jaxws.xml' dentro do WEB-INF com os endpoints do ws

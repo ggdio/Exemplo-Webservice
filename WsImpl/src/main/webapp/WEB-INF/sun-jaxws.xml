@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+	<!-- MAPEAMENTO DO WEBSERVICE IMPLEMENTADO NA CLASSE 'ExemploServiceWs' -->
+	<endpoint
+	  	implementation="br.com.ggdio.ws.service.ExemploServiceWs"
+	  	name="ExemploService"
+	  	url-pattern="/services/exemplo"
+	/>
+</endpoints>
