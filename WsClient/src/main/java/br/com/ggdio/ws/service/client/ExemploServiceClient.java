@@ -10,8 +10,8 @@ import javax.xml.ws.WebServiceClient;
 import br.com.ggdio.ws.service.structure.ExemploService;
 
 /**
- * Esta classe realiza uma conexão com o webservice
- * e a partir do wsdl realiza chamadas aos métodos.
+ * Esta classe realiza uma conexï¿½o com o webservice
+ * e a partir do wsdl realiza chamadas aos mï¿½todos.
  * @author Guilherme Dio
  *
  */
@@ -19,7 +19,7 @@ import br.com.ggdio.ws.service.structure.ExemploService;
 public class ExemploServiceClient extends Service {
 
 	public ExemploServiceClient(String url) throws MalformedURLException {
-		super(new URL(url), new QName("http://exemplo.referre.com.br/ws",
+		super(new URL(url), new QName("http://exemplo.ggdio.com.br/ws",
 				"ExemploService"));
 	}
 
